@@ -20,6 +20,11 @@ def actual_time():
     set_alarm_timer = f"{hour.get()}:{min.get()}:{sec.get()}"
     alarm(set_alarm_timer)
     clock = Tk()
+    alarm-clock
+clock = Tk()
+
+=======
+ main
 clock.title("DataFlair Alarm Clock")
 clock.geometry("400x200")
 time_format=Label(clock, text= "Enter time in 24 hour format!", fg="red",bg="black",font="Arial").place(x=60,y=120)
